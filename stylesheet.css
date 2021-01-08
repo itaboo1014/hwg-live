@@ -1,0 +1,48 @@
+h1 {}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+
+p {}
+
+a {}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {}
+
+#header-contents {}
+
+.header-content {}
+
+#header-icon {}
+
+#header-btns {}
+
+.header-btn {}
+
+#header-menu {}
+
+main {}
+
+#main-contents {}
+
+.main-content {}
+
+
+/*　レスポンシブ　表示・非表示　*/
+
+.pc-none {}
+
+.tab-none {}
+
+.sp-none {}
+
+
+/*　レスポンシブ　表示・非表示　*/
