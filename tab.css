@@ -1,1 +1,341 @@
-@media (max-width: 1023px) and (min-width: 768px) {}
+@media (max-width: 1023px) and (min-width: 768px) {
+    /*ヘッダー共通事項*/
+    h1 {
+        text-align: center;
+        font-size: 40px;
+    }
+    h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    h4 {}
+    p {
+        font-size: 16px;
+    }
+    a {
+        font-size: 16px;
+        color: green;
+    }
+    .color-orange {
+        color: orange;
+    }
+    .color-blue {
+        color: blue;
+    }
+    .color-red {
+        color: red;
+    }
+    .color-green {
+        color: green;
+    }
+    body {
+        background-color: rgb(30, 30, 30);
+        color: rgb(220, 220, 220);
+        margin: 0;
+        padding: 0;
+    }
+    body.fixed {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        left: 0;
+    }
+    header {
+        display: block;
+        width: 100%;
+        height: 50px;
+        background-color: black;
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        margin: 0;
+        padding: 0;
+    }
+    #header-contents {
+        display: block;
+        width: 98%;
+        height: 50px;
+        margin: 0 auto;
+    }
+    .header-content {
+        display: inline-block;
+        height: 50px;
+    }
+    #header-icon {
+        float: left;
+        width: auto;
+        height: 50px;
+        cursor: pointer;
+    }
+    #header-icon img {
+        display: block;
+        width: auto;
+        height: 30px;
+        margin: 10px 0px 10px 0px;
+    }
+    #header-btns {
+        float: right;
+        width: auto;
+        text-align: center;
+    }
+    .header-btn {
+        display: inline-block;
+        height: 50px;
+        margin: 0px 0px 0px 8px;
+    }
+    .header-btn p {
+        cursor: pointer;
+        display: block;
+        color: rgb(200, 200, 200);
+        font-weight: 600;
+        text-decoration: none;
+        line-height: 50px;
+        margin: 0;
+        padding: 0px 5px 0px 5px;
+    }
+    .header-btn p:hover {
+        opacity: 0.9;
+    }
+    .header-btn a {
+        cursor: pointer;
+        display: block;
+        color: rgb(200, 200, 200);
+        font-weight: 600;
+        text-decoration: none;
+        line-height: 50px;
+        margin: 0;
+        padding: 0px 5px 0px 5px;
+    }
+    .header-btn a:hover {
+        opacity: 0.9;
+    }
+    #header-live-btn p {
+        color: green;
+    }
+    #header-menu {}
+    #header2 {
+        display: block;
+        width: 100%;
+        height: 50px;
+        background-color: rgba(30, 30, 30, 0.95);
+        position: fixed;
+        top: 50px;
+        z-index: 100;
+        margin: 0;
+        padding: 0;
+    }
+    #header2-contents {
+        display: block;
+        width: 98%;
+        height: 50px;
+        margin: 0 auto;
+    }
+    .header2-content {
+        text-align: center;
+        height: 50px;
+    }
+    .header2-btn {
+        display: inline-block;
+        height: 50px;
+    }
+    .header2-btn p {
+        cursor: pointer;
+        display: block;
+        color: rgb(200, 200, 200);
+        font-weight: 600;
+        text-decoration: none;
+        line-height: 50px;
+        margin: 0;
+        padding: 0px 20px 0px 20px;
+    }
+    .header2-btn p:hover {
+        opacity: 0.9;
+    }
+    #header-menu {
+        float: right;
+        height: 50px;
+        width: auto;
+        text-align: center;
+    }
+    #header-menu-btn {
+        line-height: 50px;
+        font-size: 36px;
+    }
+    /*ヘッダー共通事項*/
+    /*メインメニュー*/
+    #main-menu {
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 50px;
+        background-color: rgb(30, 30, 30);
+        z-index: 1000;
+    }
+    .main-menu-close {
+        display: none;
+    }
+    #main-menu-contents {
+        list-style: none;
+    }
+    .main-menu-content {}
+    .main-menu-content a {
+        font-size: 30px;
+        cursor: pointer;
+        display: block;
+        color: rgb(200, 200, 200);
+        font-weight: 600;
+        text-decoration: none;
+        padding: 10px;
+        margin: 0;
+    }
+    .main-menu-home a {
+        color: green;
+    }
+    /*メインメニュー*/
+    /*メインコンテンツ*/
+    main {
+        width: 98%;
+        margin: 0 auto;
+    }
+    #main-contents {}
+    .main-content {
+        padding: 100px 0px 0px 0px;
+    }
+    #main-top-text {}
+    #live-top-img {}
+    #live-top-img img {
+        width: 100%;
+    }
+    .schedule-year-btn {
+        padding: 20px;
+        display: inline-block;
+    }
+    .schedule-year-btn p {
+        cursor: pointer;
+        color: green;
+        text-decoration: underline;
+    }
+    .schedule-year-btn p:hover {
+        opacity: 0.8;
+    }
+    .popup-content {
+        overflow: scroll;
+        position: fixed;
+        top: 50px;
+        left: 50%;
+        transform: translateY(0%) translateX(-50%);
+        width: 98%;
+        /*height: 100%;*/
+        height: calc(100% + -50px);
+        background-color: rgb(30, 30, 30);
+        margin: 0 auto;
+        z-index: 500;
+        display: none;
+    }
+    .popup-content-active {
+        display: block;
+    }
+    .popup-content-close-btn {
+        display: inline-block;
+        text-align: right;
+        float: right;
+        width: 5%;
+        padding: 0;
+    }
+    .popup-content-close-btn p {
+        font-size: 45px;
+        margin: 0;
+        padding: 0;
+        cursor: pointer;
+    }
+    .popup-content-close-btn p:hover {
+        opacity: 0.8;
+    }
+    .popup-content-text {
+        display: inline-block;
+        float: right;
+        width: 95%;
+    }
+    .popup-content-text h3 {
+        color: green;
+        margin-top: 50px;
+        padding: 0;
+    }
+    .popup-content-text p {
+        font-size: 14px;
+    }
+    .live-system-detail-btn {}
+    .live-system-detail-btn p {
+        display: inline-block;
+        cursor: pointer;
+        color: green;
+        text-decoration: underline;
+    }
+    .live-system-detail-btn p:hover {
+        opacity: 0.8;
+    }
+    /*メインコンテンツ*/
+    /*メインコンテンツ（フッター）*/
+    footer {
+        display: block;
+        padding: 100px 0 0 0;
+    }
+    #footer {
+        display: block;
+    }
+    #footer-contents {
+        display: block;
+        text-align: center;
+    }
+    #footer-btns {}
+    .footer-btn {
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        border-radius: 100%;
+        margin: 5px;
+        box-shadow: 2px 2px 4px gray;
+        position: relative;
+    }
+    .footer-btn a {
+        font-size: 16px;
+        padding: 10px;
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+    .footer-btn a:hover {
+        transition: 0.2s;
+        opacity: 0.9;
+        font-size: 19px;
+    }
+    #youtube-footer-btn {
+        background-color: red;
+    }
+    #insta-footer-btn {
+        background: linear-gradient(-135deg, #E4A972, #9941D8);
+    }
+    #twitter-footer-btn {
+        background-color: rgb(0, 206, 206);
+    }
+    #mail-footer-btn {
+        background-color: lightgreen;
+    }
+    #footer-icon {}
+    #footer-icon p {}
+    /*メインコンテンツ（フッター）*/
+    /*　レスポンシブ　表示・非表示　*/
+    .pc-none {}
+    .tab-none {
+        display: none;
+    }
+    .sp-none {}
+    /*　レスポンシブ　表示・非表示　*/
+}
